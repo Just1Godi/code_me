@@ -1,198 +1,121 @@
-/*Состояния ссылок на CSS*/
+/*Установка фонового цвета на CSS*/
 
-/*Задание 1*/
+	/*Задание 1*/
 
-.block-1__task-1 a {
-  color: blue;
-  transition: color 1s;
-}
+		.block-1__task-1 {
+			width: 200px;
+			height: 200px;
+			color: white;
+			background-color: blue;
+		}
+	
+	/*Задание 2*/
 
-.block-1__task-1 a:visited {
-  color: green;
-}
+		.block-1__task-2 {
+			width: 300px;
+			height: 200px;
+			color: white;
+			background-color: green;
+			text-align: center;
+			font-size: 26px;
+		}
 
-.block-1__task-1 a:hover {
-  color: red;
-  text-decoration: none;
-}
+/*Основы работы с границами на CSS*/
 
-.block-1__task-1 a:active {
-  color: black;
-}
+	/*Задание 1*/
 
-/*Задание 2*/
+		.block-2__task-1 {
+			width: 300px;
+			height: 300px;
+			border-style: ridge;
+			border-width: 5px;
+			border-color: blue;
+		}
+	
+	/*Задание 2*/
 
-.block-1__task-2 a:link,
-.block-1__task-2 a:visited,
-.block-1__task-2 a:active {
-  color: blue;
-  text-decoration: none;
-}
+		.block-2__task-2 {
+			width: 300px;
+			height: 300px;
+			border-style: dotted;
+			border-width: 5px;
+			border-color: red;
+		}
 
-.block-1__task-2 a:hover {
-  color: red;
-  text-decoration: underline;
-}
+	/*Задание 3*/
 
-/*Сложные селекторы с состояниями ссылок на CSS*/
+		.block-2__task-3 {
+			width: 300px;
+			height: 300px;
+			border-style: dashed;
+			border-width: 2px;
+			border-color: gold;
+		}
 
-/*Задание 1*/
+	/*Задание 4*/
 
-.block-2__task-1 a {
-  color: red;
-}
-.block-2__task-1 a:hover {
-  text-decoration: none;
-}
+		.block-2__task-4 {
+			width: 300px;
+			height: 300px;
+			border-style: double;
+			border-width: 10px;
+			border-color: blue;
+		}
 
-/*Задание 2*/
+/*Свойство-сокращение для границы на CSS*/
 
-.block-2__task-2 a.zzz {
-  color: red;
-}
-.block-2__task-2 a.zzz:hover {
-  text-decoration: none;
-}
+	/*Задание 1*/
 
-/*Задание 3*/
+		.block-3__task-1 {
+			border: 1px solid red;
+			width: 300px;
+			height: 300px;
+		}
 
-.block-2__task-3 #block a.zzz {
-  color: red;
-}
-.block-2__task-3 #block a.zzz:hover {
-  text-decoration: none;
-}
+	/*Задание 2*/
 
-/*Задание 4*/
+		.block-3__task-2 {
+			border: 1px dashed blue;
+			width: 300px;
+			height: 300px;
+		}
 
-.block-2__task-4 .block a.zzz {
-  color: red;
-}
-.block-2__task-4 .block a.zzz:hover {
-  text-decoration: none;
-}
+	/*Задание 3*/
 
-/*Выборка по позиции элементов на CSS*/
+		.block-3__task-2 {
+			border: 2px dashed green;
+			width: 300px;
+			height: 300px;
+		}
 
-/*Задание 1*/
+	/*Задание 4*/
 
-.block-3__task-1__list li:first-child {
-  color: red;
-}
+		.block-3__task-2 {
+			border: 4px double orange;
+			width: 300px;
+			height: 300px;
+		}
 
-/*Задание 2*/
+/*Граница для отдельных сторон на CSS*/
 
-.block-3__task-2__list li:last-child {
-  color: green;
-}
+	/*Задание 1*/
 
-/*Задание 3*/
+		.block-4__task-1 {
+			border-top: 2px solid blue;
+			border-left: 2px solid orange;
+			border-bottom: 2px solid red;
+			border-right: 2px solid green;
+			width: 300px;
+			height: 300px;
+		}
 
-.block-3__task-3__list li:first-child {
-  color: red;
-}
+	/*Задание 2*/
 
-.block-3__task-3__list li:last-child {
-  color: green;
-}
-
-/*Задание 4*/
-
-.block-3__task-4__list li:nth-child(3) {
-  color: green;
-}
-
-/*Задание 5*/
-
-.block-3__task-5__list li:nth-child(odd) {
-  color: red;
-}
-
-.block-3__task-5__list li:nth-child(even) {
-  color: green;
-}
-
-/*Задание 6*/
-
-.block-3__task-6__list li:nth-child(3n) {
-  color: red;
-}
-
-/*Задание 7*/
-
-.block-3__task-7__list li:nth-last-child(2) {
-  color: red;
-}
-
-/*Задание 8*/
-
-.block-3__task-8__list li:only-child {
-  color: red;
-}
-
-/*Задание 9*/
-
-.block-3__task-9__list li {
-  border: 1px solid red;
-  color: black;
-  width: 100px;
-  margin: 5px;
-}
-
-.block-3__task-9__list li:empty {
-  border: 1px solid blue;
-  color: black;
-  width: 100px;
-}
-
-/*Выборка по позиции и типу элементов на CSS*/
-
-/*Задание 1*/
-
-.block-4__task-1--first p:first-of-type {
-  color: red;
-}
-
-.block-4__task-1--last h2:last-of-type {
-  color: red;
-}
-
-/*Задание 2*/
-
-.block-4__task-2--nth-first p:nth-of-type(2) {
-  color: red;
-}
-
-.block-4__task-2--nth-last h2:nth-last-of-type(3) {
-  color: red;
-}
-
-/*Задание 3*/
-
-.block-4__task-3-1 h2:only-of-type {
-  color: red;
-}
-
-.block-4__task-3-2 h2:only-of-type {
-  color: red;
-}
-
-/*Селектор отрицания на CSS*/
-
-/*Задание 1*/
-
-.block-5__task-1 li:not(.elem) {
-  color: red;
-}
-
-/*Задание 2*/
-
-.block-5__task-2 li:not(:first-child) {
-  color: red;
-}
-
-/*Задание 3*/
-
-.block-5__task-3 li:not(:first-child, :last-child) {
-  color: red;
-}
+		.block-4__task-2 {
+			border-top: 2px solid blue;
+			border-left: 5px ridge red;
+			border-bottom: 2px solid blue;
+			border-right: 2px dotted green;
+			width: 300px;
+			height: 300px;
+		}
