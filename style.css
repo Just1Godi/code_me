@@ -1,121 +1,165 @@
-/*Установка фонового цвета на CSS*/
+/*Скругленные уголки на CSS*/
 
 	/*Задание 1*/
 
 		.block-1__task-1 {
-			width: 200px;
-			height: 200px;
-			color: white;
-			background-color: blue;
-		}
-	
-	/*Задание 2*/
+            width: 300px;
+            height: 300px;
+            border: 1px solid green;
+            border-radius: 40px;
+        }
+
+    /*Задание 2*/
 
 		.block-1__task-2 {
-			width: 300px;
-			height: 200px;
-			color: white;
-			background-color: green;
-			text-align: center;
-			font-size: 26px;
-		}
+            width: 300px;
+            height: 300px;
+            border: 3px solid green;
+            border-radius: 40px;
+            background-color: red;
+        }
 
-/*Основы работы с границами на CSS*/
+    /*Задание 3*/
 
-	/*Задание 1*/
+		.block-1__task-3 {
+            width: 300px;
+            height: 300px;
+            border: 3px solid green;
+            border-radius: 150px;
+        }
 
-		.block-2__task-1 {
-			width: 300px;
-			height: 300px;
-			border-style: ridge;
-			border-width: 5px;
-			border-color: blue;
-		}
-	
-	/*Задание 2*/
-
-		.block-2__task-2 {
-			width: 300px;
-			height: 300px;
-			border-style: dotted;
-			border-width: 5px;
-			border-color: red;
-		}
-
-	/*Задание 3*/
-
-		.block-2__task-3 {
-			width: 300px;
-			height: 300px;
-			border-style: dashed;
-			border-width: 2px;
-			border-color: gold;
-		}
-
-	/*Задание 4*/
-
-		.block-2__task-4 {
-			width: 300px;
-			height: 300px;
-			border-style: double;
-			border-width: 10px;
-			border-color: blue;
-		}
-
-/*Свойство-сокращение для границы на CSS*/
+/*Разные скругления для разных углов CSS*/
 
 	/*Задание 1*/
 
-		.block-3__task-1 {
-			border: 1px solid red;
-			width: 300px;
-			height: 300px;
-		}
+        .block-2__task-1 {
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            border-radius: 10px 50px 70px 80px;
+        }
 
-	/*Задание 2*/
+    /*Задание 2*/
 
-		.block-3__task-2 {
-			border: 1px dashed blue;
-			width: 300px;
-			height: 300px;
-		}
+        .block-2__task-2 {
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            border-radius: 15px 50px 15px 50px;
+        }
 
-	/*Задание 3*/
+    /*Задание 3*/
 
-		.block-3__task-2 {
-			border: 2px dashed green;
-			width: 300px;
-			height: 300px;
-		}
+        .block-2__task-3 {
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            border-radius: 15px 40px 25px 40px;
+        }
 
-	/*Задание 4*/
-
-		.block-3__task-2 {
-			border: 4px double orange;
-			width: 300px;
-			height: 300px;
-		}
-
-/*Граница для отдельных сторон на CSS*/
+/*Скругленные уголки в процентах на CSS*/
 
 	/*Задание 1*/
 
-		.block-4__task-1 {
-			border-top: 2px solid blue;
-			border-left: 2px solid orange;
-			border-bottom: 2px solid red;
-			border-right: 2px solid green;
-			width: 300px;
-			height: 300px;
-		}
+        .block-3__task-1 {
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            border-radius: 50%;
+        }
 
-	/*Задание 2*/
+/*Работа с фоновыми картинками через CSS*/
 
-		.block-4__task-2 {
-			border-top: 2px solid blue;
-			border-left: 5px ridge red;
-			border-bottom: 2px solid blue;
-			border-right: 2px dotted green;
-			width: 300px;
-			height: 300px;
-		}
+	/*Задание 1*/
+
+        .block-4__task-1 {
+            width:1980px;
+            height: 600px;
+            background-image: url(https://clck.ru/349FmF);
+        }
+
+    /*Задание 2*/
+
+        .block-4__task-2 {
+            width:1980px;
+            height: 600px;
+            background-repeat: repeat-y;
+            background-image: url(https://clck.ru/349FmF);
+        }
+
+    /*Задание 3*/
+
+        .block-4__task-3 {
+            width:1980px;
+            height: 600px;
+            background-repeat: repeat-x;
+            background-image: url(https://clck.ru/349FmF);
+        }
+
+        /*Задание 4*/
+
+        .block-4__task-4-1 {
+            width:1980px;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-image: url(https://clck.ru/349FmF);
+            background-position: top center;
+        }
+
+        .block-4__task-4-2 {
+            width:1980px;
+            height: 600px;
+            background-image: url(https://clck.ru/349FmF);
+            background-size: cover;
+        }
+
+        .block-4__task-4-3 {
+            width:1980px;
+            height: 600px;
+            background-image: url(https://clck.ru/349FmF);
+            background-attachment: fixed;
+        }
+
+        .block-4__task-4-4 {
+            
+        }
+
+/*Работа с маркерами списков ul на CSS*/
+
+	/*Задание 1*/
+
+        .block-5__task-1 ul{
+            list-style-type: square;
+        }
+
+    /*Задание 2*/
+
+        .block-5__task-2 ul{
+            list-style-type: circle;
+        }
+
+    /*Задание 3*/
+
+        .block-5__task-3 ul{
+            list-style-type: none;
+        }
+
+/*Работа с маркерами списков ol на CSS*/
+
+	/*Задание 1*/
+        
+        .block-6__task-1 ol{
+            list-style-type: lower-alpha;
+        }
+
+    /*Задание 2*/
+        
+        .block-6__task-2 ol{
+            list-style-type: lower-greek;
+        }
+
+    /*Задание 3*/
+        
+        .block-6__task-3 ol{
+            list-style-type: upper-alpha;
+        }
