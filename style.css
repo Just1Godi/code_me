@@ -159,3 +159,145 @@
         .block-6__task-3 ol{
             list-style-type: upper-alpha;
         }
+
+/*Работа с отступами margin на CSS*/
+
+	/*Задание 1*/
+
+        .block-7__task-1 {
+            width: 500px;
+            height: 500px;
+            border: 1px dashed blue;
+        }
+
+        .block-7__task-1__child-1 {
+            height: 400px;
+            border: 1px solid orange;
+            margin: 50px;
+        }
+    
+    /*Задание 1*/
+
+        .block-7__task-2 {
+            width: 500px;
+            height: 500px;
+            border: 1px dashed blue;
+        }
+
+        .block-7__task-2__child-1 {
+            height: 400px;
+            border: 1px dashed green;
+            margin: 50px;
+        }
+
+        .block-7__task-2__child-2 {
+            height: 300px;
+            border: 1px solid red;
+            margin: 50px;
+        }
+
+/*Отступы margin для разных сторон*/
+
+	/*Задание 1*/
+
+        .block-8__task-1 {
+            width: 400px;
+            border: 1px dashed blue;
+        }
+
+        .block-8__task-1__child-1 {
+            height: 200px;
+            border: 1px solid orange;
+            margin: 50px 50px 200px 50px;
+        }   
+
+    /*Задание 2*/
+
+        .block-8__task-2 {
+            width: 400px;
+            border: 1px dashed blue;
+        }
+        .block-8__task-2__child-1 {
+            height: 200px;
+            border: 1px solid orange;
+            margin: 200px 50px 200px 50px;
+        }
+
+    /*Задание 3*/
+
+        .block-8__task-3 {
+            width: 400px;
+            border: 1px dashed blue;
+        }
+        .block-8__task-3__child-1 {
+            height: 200px;
+            border: 1px solid orange;
+            margin: 10px 80px 10px 80px;
+        }
+
+/*Несколько значений в свойстве margin*/
+
+	/*Задание 1*/
+
+        .block-9__task-1 {
+            width: 400px;
+            border: 1px dashed orange;
+        }
+
+        .block-9__task-1__child-1 {
+            height: 100px;
+            border: 1px dashed blue;
+            margin: 50px 100px 200px 25px;
+        }
+
+    /*Задание 2*/
+
+        .block-9__task-2 {
+            width: 400px;
+            border: 1px dashed orange;
+        }
+
+        .block-9__task-2__child-1 {
+            height: 100px;
+            border: 1px dashed blue;
+            margin: 200px 50px 200px 50px;
+        }
+
+    /*Задание 3*/
+
+        .block-9__task-3 {
+            width: 400px;
+            border: 1px dashed orange;
+        }
+
+        .block-9__task-3__child-1 {
+            height: 100px;
+            border: 1px dashed blue;
+            margin: 40px 80px 40px 80px;
+        }
+
+    /*Задание 4*/
+
+        .block-9__task-4 {
+            width: 400px;
+            border: 1px dashed orange;
+        }
+
+        .block-9__task-4__child-1 {
+            height: 100px;
+            border: 1px dashed blue;
+            margin: 200px 80px 40px;
+        }
+
+    /*Задание 5*/
+
+        .block-9__task-5 {
+            width: 800px;
+            border: 1px dashed orange;
+        }
+
+        .block-9__task-5__child-1 {
+            height: 100px;
+            border: 1px dashed blue;
+            margin: 40px 200px 90px;
+        }
