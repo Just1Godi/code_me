@@ -1,0 +1,46 @@
+@import url("/dz/style.css");
+.task-1__p {
+    white-space: pre;
+}
+.task-2__p {
+    display: flex;
+    white-space: pre;
+}
+.task-3__p {
+    display: flex;
+    white-space: pre;
+}
+.task-3__p p:first-child {
+    user-select: none;
+}
+.button-4:hover {
+    cursor: pointer;
+}
+.button-4 {
+    background-color: #cc00ff;
+    width: 100%;
+    height: 50px;
+    /* pointer-events: none; */
+}
+.task-5__link {
+    pointer-events: none;
+}
+.task-6__link a:hover {
+    cursor: no-drop;
+}
+.p-7-1::selection {
+    color: #cc00ff;
+    background-color: #006eff;
+}
+.p-7-2::selection {
+    color: #09ff00;
+    background-color: #ff0000;
+}
+.p-7-3::selection {
+    color: #c8ff00;
+    background-color: #ff9900;
+}
+.p-7-4::selection {
+    color: #fffafa;
+    background-color: #000000;
+}

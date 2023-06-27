@@ -1,624 +1,890 @@
-/*Центрирование через абсолют на CSS*/
+/*Значение center свойства align-items*/
 /*Задание 1*/
 .block-1__task-1 {
-    position: relative;
+    border: 4px solid #1ceb79;
     height: 600px;
-    width: 1280px;
-    border: 1px solid #000000;
+    width: 600px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .block-1__task-1-1 {
-    border: 1px solid #ff0000;
-    position: absolute;
-    top: 100px;
-    right: 100px;
-    bottom: 100px;
-    left: 100px;
+    border: 3px solid #0059ff;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 /*Задание 2*/
 .block-1__task-2 {
-    position: relative;
+    border: 4px solid #1ceb79;
     height: 600px;
-    width: 1280px;
-    border: 1px solid #000000;
+    width: 600px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
 }
-.block-1__task-2-1 {
-    border: 1px solid #ff0000;
-    position: absolute;
-    top: 100px;
-    right: 200px;
-    bottom: 50px;
-    left: 10px;
+/*Задание 3*/
+.block-1__task-3 {
+    border: 4px solid #1ceb79;
+    height: 600px;
+    width: 600px;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
-/*Отрицательные значения при позиционировании*/
+/*Задание 4*/
+.block-1__task-4 {
+    border: 4px solid #1ceb79;
+    height: 600px;
+    width: 600px;
+    margin-left: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Задание 5*/
+.block-1__task-5 {
+    border: 4px solid #1ceb79;
+    height: 600px;
+    width: 600px;
+    margin-left: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Задание 6*/
+.block-1__task-6 {
+    border: 4px solid #1ceb79;
+    height: 600px;
+    width: 600px;
+    margin-left: 1000px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+/*Значение stretch свойства align-items*/
 /*Задание 1*/
 .block-2__task-1 {
-    border: 1px solid #000000;
-    height: 200px;
-    width: 400px;
-    position: relative;
-    left: 100px;
-}
-.block-2__task-1-1,
-.block-2__task-1-2 {
-    border: 1px solid #ff0000;
-    height: 50px;
-    width: 50px;
-    position: absolute;
+    border: 4px solid #ff00dd;
+    height: 600px;
+    width: 600px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
 }
 .block-2__task-1-1 {
-    left: -60px;
+    border: 3px solid #0059ff;
+    width: 60px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
 }
-.block-2__task-1-2 {
-    right: -60px;
+/*Задание 1*/
+.block-2__task-2 {
+    border: 4px solid #ff00dd;
+    height: 600px;
+    width: 600px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
-/*Фиксированное позиционирование на CSS*/
+.block-2__task-2-1 {
+    border: 3px solid #0059ff;
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*Задание 3*/
+.block-2__task-3 {
+    border: 4px solid #ff00dd;
+    height: 600px;
+    width: 600px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.block-2__task-3-1 {
+    border: 3px solid #0059ff;
+    height: 60px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*Практика на выравнивание по осям*/
 /*Задание 1*/
 .block-3__task-1 {
-    border: 1px solid #000000;
-    width: 1920px;
-    position: relative;
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .block-3__task-1-1 {
-    border-bottom: 1px solid #A3AA11;
-    background-color: #C4CD14;
-    color: #ffffff;
-    height: 48.75px;
-    width: 1920px;
-    line-height: 50px;
-    text-align: center;
-    font-size: 36px;
-    position: absolute;
-    /* position: fixed; */
+   border: 5px solid #ff006a;
+   border-style: ridge;
+   margin: 5px;
+   height: 60px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 20px;
 }
-.block-3__task-1-2 {
-    border: 1px solid #C4CD14;
-    text-align: center;
+/*Задание 2*/
+.block-3__task-2 {
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
     width: 600px;
-    margin: 60px auto;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
-.block-3__task-1-2 p{
-    text-align: justify;
+/*Задание 3*/
+.block-3__task-3 {
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
-/*Наложение элементов по оси Z*/
+/*Задание 4*/
+.block-3__task-4 {
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+/*Задание 5*/
+.block-3__task-5 {
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+/*Задание 6*/
+.block-3__task-6 {
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/*Задание 7*/
+.block-3__task-7 {
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/*Задание 8*/
+.block-3__task-8 {
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/*Задание 9*/
+.block-3__task-9 {
+    border: 5px solid #ffe600;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+/*Практика на выравнивание по осям*/
 /*Задание 1*/
 .block-4__task-1 {
-    height: 200px;
-    width: 200px;
-    position: relative;
+    border: 5px solid #0004ff;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .block-4__task-1-1,
 .block-4__task-1-2,
-.block-4__task-1-3 {
-    height: 50px;
-    width: 50px;
-    border: 1px solid;
-    position: absolute;
-}
-.block-4__task-1-1 {
-    border-color: #ff9000;
-    background-color: #ff9000;
-    z-index: 1;
-}
-.block-4__task-1-2 {
-    border-color: #ffff00;
-    background-color: #ffff00;
-    z-index: 2;
-    top: 30px;
-    left: 30px;
+.block-4__task-1-3,
+.block-4__task-1-4,
+.block-4__task-1-5 {
+   border: 5px solid #ff00dd;
+   border-style: ridge;
+   margin: 5px;
+   height: 60px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 20px;
 }
 .block-4__task-1-3 {
-    border-color: #ff0000;
-    background-color: #ff0000;
-    z-index: 1;
-    top: 60px;
-    left: 60px;
+    align-self: flex-end;
 }
 /*Задание 2*/
 .block-4__task-2 {
-    height: 200px;
-    width: 200px;
-    position: relative;
+    border: 5px solid #0004ff;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 .block-4__task-2-1,
 .block-4__task-2-2,
-.block-4__task-2-3 {
-    height: 50px;
-    width: 50px;
-    border: 1px solid;
-    position: absolute;
-}
-.block-4__task-2-1 {
-    border-color: #ff9000;
-    background-color: #ff9000;
-    z-index: 1;
-}
-.block-4__task-2-2 {
-    border-color: #ffff00;
-    background-color: #ffff00;
-    z-index: 2;
-    top: 30px;
-    left: 30px;
+.block-4__task-2-3,
+.block-4__task-2-4,
+.block-4__task-2-5 {
+   border: 5px solid #ff00dd;
+   border-style: ridge;
+   margin: 5px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 20px;
 }
 .block-4__task-2-3 {
-    border-color: #ff0000;
-    background-color: #ff0000;
-    z-index: 3;
-    top: 60px;
-    left: 60px;
+    align-self: center;
 }
 /*Задание 3*/
 .block-4__task-3 {
-    height: 200px;
-    width: 200px;
-    position: relative;
+    border: 5px solid #0004ff;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
 .block-4__task-3-1,
 .block-4__task-3-2,
-.block-4__task-3-3 {
-    height: 50px;
-    width: 50px;
-    border: 1px solid;
-    position: absolute;
-}
-.block-4__task-3-1 {
-    border-color: #ff9000;
-    background-color: #ff9000;
-}
-.block-4__task-3-2 {
-    border-color: #ffff00;
-    background-color: #ffff00;
-    z-index: -1;
-    top: 30px;
-    left: 30px;
+.block-4__task-3-3,
+.block-4__task-3-4,
+.block-4__task-3-5 {
+   border: 5px solid #ff00dd;
+   border-style: ridge;
+   margin: 5px;
+   height: 60px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 20px;
 }
 .block-4__task-3-3 {
-    border-color: #ff0000;
-    background-color: #ff0000;
-    top: 60px;
-    left: 60px;
+    align-self: center;
 }
-/*Введение в свойство float*/
+/*Порядок flex блоков через CSS*/
 /*Задание 1*/
 .block-5__task-1 {
-    width: 300px;
-    text-align: justify;
+    border: 5px solid #ff0000;
+    border-style: groove;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.block-5__task-1 img {
-    height: 100px;
-    width: 100px;
+.block-5__task-1-1,
+.block-5__task-1-2,
+.block-5__task-1-3,
+.block-5__task-1-4,
+.block-5__task-1-5 {
+   border: 5px solid #ff00dd;
+   border-style: ridge;
+   margin: 5px;
+   height: 60px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 20px;
 }
-.block-5__task-1-img-1 {
-    float: left;
+.block-5__task-1-3 {
+    order: 1;
+    border-color: #ffe600;
+    align-self: flex-start;
 }
-.block-5__task-1-img-2 {
-    float: right;
+.block-5__task-1-1 {
+    order: 4;
+    border-color: #1ceb79;
+    align-self: center;
 }
-/*Отступы плавающему элементу*/
+.block-5__task-1-2 {
+    order: 5;
+    border-color: #ff006a;
+    align-self: flex-end;
+}
+.block-5__task-1-4 {
+    order: 2;
+    border-color: #ff00dd;
+    align-self: flex-start;
+}
+.block-5__task-1-5 {
+    order: 3;
+    border-color: #0004ff;
+    align-self: flex-end;
+}
+/*Создание меню на CSS*/
 /*Задание 1*/
 .block-6__task-1 {
-    border: 1px solid #000000;
-    width: 600px;
-    margin: 0 auto;
-    text-align: justify;
+    display: flex;
+    width: auto;
 }
-.block-6__task-1-img-1 {
-    border: 1px solid #000000;
-    height: 100px;
-    width: 100px;
-    margin: 15px;
-    float: left;
+.block-6__task-1 a {
+    border: 1px solid #04e09e;
+    background-color: #04e09e;
+    margin-right: 10px;
+    padding: 10px 25px;
+    font: 16px "Times New Roman";
+    text-decoration: none;
+    color: #ffffff;
 }
-.block-6__task-1-img-2 {
-    border: 1px solid #000000;
-    height: 100px;
-    width: 100px;
-    margin: 15px;
-    float: right;
+.block-6__task-1 a:hover,
+.block-6__task-1 .block-6__task-1--blog {
+    background-color: #ffffff;
+    color: #04e09e;
 }
-/*Свойство float для блоков*/
+/*Задание 2*/
+.block-6__task-2 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.block-6__task-2 a {
+    border: 1px solid #04e09e;
+    background-color: #04e09e;
+    margin-right: 10px;
+    padding: 10px 25px;
+    font: 16px "Times New Roman";
+    text-decoration: none;
+    color: #ffffff;
+}
+.block-6__task-2 a:hover,
+.block-6__task-2 .block-6__task-2--blog {
+    background-color: #ffffff;
+    color: #04e09e;
+}
+/*Задание 3*/
+.block-6__task-3 {
+    background-color: #04e09e;
+    display: flex;
+    width: auto;
+}
+.block-6__task-3 a {
+    background-color: #04e09e;
+    padding: 10px 40px;
+    font: 16px "Times New Roman";
+    text-decoration: none;
+    color: #ffffff;
+}
+.block-6__task-3 a:hover,
+.block-6__task-3 .block-6__task-3--blog {
+    background-color: #029267;
+}
+/*Простые одноколоночные макеты сайтов*/
 /*Задание 1*/
-.block-7__task-1 {
-    border: 1px solid #000000;
-    width: 600px;
+.block-7-1 {
+    border: 1px solid #413b3b;
+    width: 900px;
     margin: 0 auto;
-    text-align: justify;
 }
-.block-7__task-1-1 {
-    border: 1px solid #000000;
-    height: 100px;
-    width: 100px;
-    margin: 15px;
-    float: right;
+.block-7__task-1-menu {
+    background-color: #413b3b;
+    display: flex;
 }
-/*Свойство float и несколько блоков*/
-/*Задание 1*/
-.block-8__task-1 {
-    border: 1px solid #000000;
-    width: 600px;
-    margin: 0 auto;
-    text-align: justify;
+.block-7__task-1-menu a {
+    padding: 10px 40px;
+    font: 16px "Times New Roman";
+    text-decoration: none;
+    color: #ffffff;
 }
-.block-8__task-1-1 {
-    border: 1px solid #000000;
-    height: 50px;
-    width: 100px;
-    margin: 15px;
+.block-7__task-1-menu a:hover,
+.block-7__task-1-menu .block-7__task-1--blog {
+    background-color: #ffffff;
+    color: #413b3b;
+}
+.block-7__task-1-wrapper h1 {
     text-align: center;
-    float: right;
 }
-/*Свойство float и родитель без текста*/
+.block-7__task-1-wrapper p {
+    margin: 10px;
+    text-align: justify;
+    font: 16px "Times New Roman";
+}
+.block-7__task-1-wrapper a {
+    text-decoration: none;
+}
+.block-7__task-1-wrapper a:hover {
+    text-decoration: underline;
+    color: #00ff88
+}
+/*Задание 2*/
+.block-7-2 {
+    color: #ffa600;
+}
+.block-7__task-2 {
+    border: 1px solid #ffa600;
+    width: 900px;
+    margin: 0 auto 15px auto;
+}
+.block-7__task-2-aside {
+    background-color: #ffa600;
+    display: flex;
+}
+.block-7__task-2-aside a {
+    padding: 10px 40px;
+    font: 16px "Times New Roman";
+    text-decoration: none;
+    color: #ffffff;
+}
+.block-7__task-2-aside a:hover,
+.block-7__task-2-aside .block-7__task-2--blog {
+    background-color: #ffffff;
+    color: #ffa600;
+}
+.block-7__task-2-wrapper h1,
+.block-7__task-2-wrapper h2 {
+    text-align: center;
+    color: #c58102
+}
+.block-7__task-2-wrapper p {
+    text-indent: 40px;
+    text-align: justify;
+    font: 17px "Arial";
+    margin: 10px;
+}
+.block-7__task-2-wrapper a {
+    color: #ffa600;
+    font-weight: bold;
+}
+.block-7__task-2-wrapper a:hover {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.block-7__task-2-footer {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+}
+.block-7__task-2-footer a {
+    color: #c58102;
+    padding: 10px 20px;
+    font: 16px "Arial";
+    font-weight: bold;
+    text-decoration: none;
+}
+.block-7__task-2-footer a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+/*Задание 3*/
+.block-7-3 {
+    width: 700px;
+    margin: 0 auto;
+}
+.block-7-3-header h1 {
+    font: 32px "Times New Roman";
+    text-align: center;
+    font-weight: none;
+}
+.block-7-3-block {
+    border: 1px solid #000000;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.block-7-3-block p {
+    font: 16px "Arial";
+}
+.block-7-3-block a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.block-7-3-block a:hover {
+    text-decoration: underline;
+}
+.block-7-3-more {
+    padding-right: 20px;
+    text-align: right;
+}
+/*Схема макетов с несколькими врапперами*/
+/*Задание 1*/
+.block-8 {
+    box-sizing: border-box;
+}
+.block-8__header--green {
+    background-color: #04e09e;
+    margin-bottom: 30px;
+}
+.block-8--center {
+    width: 840px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.block-8__header {
+    padding: 10px;
+}
+.block-8__header h1,
+.block-8__header p {
+    color: #ffffff;
+    text-align: center;
+}
+.block-8__header h1 {
+    font: 36px "Arial";
+    margin:0 0 7px 0;
+    font-weight: bold;
+}
+.block-8__header p {
+    font: 20px "Times New Roman";
+    margin: 0 0 5px 0;
+}
+.block-8__service {
+    margin-bottom: 30px;
+}
+.block-8--center-justify {
+    width: 840px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.block-8__service h2 {
+    text-align: center;
+    font: 28px "Arial";
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.block-8__service li {
+    font: 18px "Times New Roman";
+    list-style-position: inside;
+    margin: 0 0 10px 0;
+}
+
+.block-8__contacts{
+    padding: 10px;
+}
+.block-8__contacts--red {
+    background-color: #ff006a;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.block-8__contacts h2,
+.block-8__contacts p {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.block-8__contacts p {
+    font: 20px "Times New Roman";
+}
+.block-8__contacts h2 {
+    text-align: center;
+    font: 28px "Arial";
+    font-weight: bold;
+}
+
+.block-8__about {
+    margin-bottom: 30px;
+}
+.block-8__about h2 {
+    text-align: center;
+    font: 28px "Arial";
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.block-8__about p {
+    font: 20px "Times New Roman";
+    margin: 0 0 5px 0;
+}
+
+.block-8__footer--orange {
+    background-color: #c58102;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.block-8--center-bottom {
+    width: 840px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.block-8__footer p {
+    font: 14px "Times New Roman";
+    margin: 100px 0 5px 0;
+}
+/*Схема двухколоночного макета сайта*/
 /*Задание 1*/
 .block-9__task-1 {
-    border: 1px solid #000000;
-    width: 100%;
+    box-sizing: border-box;
+    font-size: 36px;
 }
-.block-9__task-1-1 {
-    border: 1px solid #000000;
-    width: 100px;
-    height: 100px;
-    margin: 15px;
-    float: left;
+.block-9__task-1-body {
+    border: 2px solid #000000;
+    width: 1000px;
+    margin: 30px auto;
 }
-.block-9__task-1-clearfix {
-    clear: both;
+.block-9__task-1-container {
+    display: flex;
+}
+.block-9__task-1-header {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.block-9__task-1-content {
+    border: 1px solid #000000;
+    height: 700px;
+    width: 780px;
+    padding: 20px;
+}
+.block-9__task-1-sidebar {
+    border: 1px solid #000000;
+    width: 200px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.block-9__task-1-footer {
+    border: 1px solid #000000;
+    height: 200px;
+    padding: 20px;
 }
 /*Задание 2*/
 .block-9__task-2 {
+    box-sizing: border-box;
+    font-size: 36px;
+}
+.block-9__task-2-body {
+    border: 2px solid #000000;
+    width: 1000px;
+    margin: 30px auto;
+}
+.block-9__task-2-container {
+    display: flex;
+}
+.block-9__task-2-header {
+    height: 200px;
+    padding: 20px;
     border: 1px solid #000000;
-    width: 100%;
 }
-.block-9__task-2-1 {
+.block-9__task-2-content {
     border: 1px solid #000000;
-    width: 100px;
-    height: 100px;
-    margin: 15px;
-    float: right;
+    height: 700px;
+    width: 780px;
+    margin-right: 20px;
+    padding: 20px;
 }
-.block-9__task-2-clearfix {
-    clear: both;
+.block-9__task-2-sidebar {
+    border: 1px solid #000000;
+    width: 200px;
+    padding: 20px;
 }
-/*Размещение флекс элементов в ряд или колонку*/
-/*Задание 1*/
-.block-10__task-1 {
+.block-9__task-2-footer {
     border: 1px solid #000000;
     height: 200px;
-    width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+    padding: 20px;
 }
-.block-10__task-1-1 {
-    border: 2px solid #ff0000;
-    width: 100px;
-    height: 100px;
-    margin: auto auto;
-    text-align: center;
+/*Схема трехколоночного макета сайта*/
+/*Задание 1*/
+.block-10__task-1 {
+    box-sizing: border-box;
+    font-size: 36px;
+}
+.block-10__task-1-body {
+    border: 2px solid #000000;
+    width: 1100px;
+    margin: 30px auto;
+}
+.block-10__task-1-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
+}
+.block-10__task-1-header {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.block-10__task-1-content {
+    border: 1px solid #000000;
+    height: 700px;
+    width: 660px;
+    padding: 20px;
+}
+.block-10__task-1-rightsidebar {
+    border: 1px solid #000000;
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.block-10__task-1-leftsidebar {
+    border: 1px solid #000000;
+    width: 200px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.block-10__task-1-footer {
+    border: 1px solid #000000;
+    height: 200px;
+    padding: 20px;
 }
 /*Задание 2*/
 .block-10__task-2 {
-    border: 1px solid #000000;
-    height: 600px;
-    width: 200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 36px;
 }
-.block-10__task-2-1 {
-    border: 2px solid #ff0000;
-    width: 100px;
-    height: 100px;
-    margin: auto auto;
-    text-align: center;
+.block-10__task-2-body {
+    border: 2px solid #000000;
+    width: 1100px;
+    margin: 30px auto;
+}
+.block-10__task-2-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
+}
+.block-10__task-2-header {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.block-10__task-2-content {
+    border: 1px solid #000000;
+    height: 700px;
+    width: 660px;
+    padding: 20px;
+}
+.block-10__task-2-rightsidebar {
+    border: 1px solid #000000;
+    width: 200px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.block-10__task-2-leftsidebar {
+    border: 1px solid #000000;
+    width: 200px;
+    margin-right: 10px;
+    padding: 20px;
+}
+.block-10__task-2-footer {
+    border: 1px solid #000000;
+    height: 200px;
+    padding: 20px;
 }
 /*Задание 3*/
 .block-10__task-3 {
+    box-sizing: border-box;
+    font-size: 36px;
+}
+.block-10__task-3-body {
+    border: 2px solid #000000;
+    width: 1100px;
+    margin: 30px auto;
+}
+.block-10__task-3-container {
+    display: flex;
+}
+.block-10__task-3-header {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.block-10__task-3-content {
+    border: 1px solid #000000;
+    height: 700px;
+    width: 660px;
+    padding: 20px;
+}
+.block-10__task-3-rightsidebar {
+    border: 1px solid #000000;
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.block-10__task-3-leftsidebar {
+    border: 1px solid #000000;
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.block-10__task-3-footer {
     border: 1px solid #000000;
     height: 200px;
-    width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row-reverse;
+    padding: 20px;
 }
-.block-10__task-3-1 {
-    border: 2px solid #ff0000;
-    width: 100px;
-    height: 100px;
-    margin: auto auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 4*/
-.block-10__task-4 {
-    border: 1px solid #000000;
-    height: 600px;
-    width: 200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column-reverse;
-}
-.block-10__task-4-1 {
-    border: 2px solid #ff0000;
-    width: 100px;
-    height: 100px;
-    margin: auto auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Выравнивание флекс элементов по главной оси*/
+/*Специальные теги для элементов макета сайта*/
 /*Задание 1*/
 .block-11__task-1 {
-    border: 1px solid #3166f7;
-    height: 200px;
-    width: 800px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.block-11__task-1-1 {
-    border: 3px solid #51ff00;
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 2*/
-.block-11__task-2 {
-    border: 1px solid #3166f7;
-    height: 800px;
-    width: 200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.block-11__task-2-1 {
-    border: 3px solid #51ff00;
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 3*/
-.block-11__task-3 {
-    border: 1px solid #3166f7;
-    height: 200px;
-    width: 800px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-}
-.block-11__task-3-1 {
-    border: 3px solid #51ff00;
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 4*/
-.block-11__task-4 {
-    border: 1px solid #3166f7;
-    height: 200px;
-    width: 700px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-}
-.block-11__task-4-1 {
-    border: 3px solid #51ff00;
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 5*/
-.block-11__task-5 {
-    border: 1px solid #3166f7;
-    height: 700px;
-    width: 200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-}
-.block-11__task-5-1 {
-    border: 3px solid #51ff00;
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Выравнивание флекс блоков по поперечной оси CSS*/
-/*Задание 1*/
-.block-12__task-1 {
-    border: 4px solid #00e1ff;
-    height: 500px;
-    width: 500px;
-    margin: 0 300px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.block-12__task-1-1 {
-    border: 3px solid #ff00aa;
-    height: 60px;
-    width: 60px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 2*/
-.block-12__task-2 {
-    border: 4px solid #00e1ff;
-    height: 500px;
-    width: 500px;
-    margin: 0 500px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-.block-12__task-2-1 {
-    border: 3px solid #ff00aa;
-    height: 60px;
-    width: 60px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 3*/
-.block-12__task-3 {
-    border: 4px solid #00e1ff;
-    height: 500px;
-    width: 500px;
-    margin: 0 700px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-.block-12__task-3-1 {
-    border: 3px solid #ff00aa;
-    height: 60px;
-    width: 60px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 4*/
-.block-12__task-4 {
-    border: 4px solid #00e1ff;
-    height: 500px;
-    width: 500px;
-    margin: 0 900px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-.block-12__task-4-1 {
-    border: 3px solid #ff00aa;
-    height: 60px;
-    width: 60px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 5*/
-.block-12__task-5 {
-    border: 4px solid #00e1ff;
-    height: 500px;
-    width: 500px;
-    margin: 0 1100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-.block-12__task-5-1 {
-    border: 3px solid #ff00aa;
-    height: 60px;
-    width: 60px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 6*/
-.block-12__task-6 {
-    border: 4px solid #00e1ff;
-    height: 500px;
-    width: 500px;
-    margin: 0 1300px;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-}
-.block-12__task-6-1 {
-    border: 3px solid #ff00aa;
-    height: 60px;
-    width: 60px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
-}
-/*Задание 7*/
-.block-12__task-7 {
-    border: 4px solid #00e1ff;
-    height: 500px;
-    width: 500px;
-    margin: 0 1500px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.block-12__task-7-1 {
-    border: 3px solid #ff00aa;
-    height: 60px;
-    width: 60px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 20px;
+    box-sizing: border-box;
+    font-size: 36px;
 }

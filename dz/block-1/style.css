@@ -1,0 +1,62 @@
+@import url("/dz/style.css");
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p--center {
+    margin: 5px 0;
+}
+.task__img {
+    border: 1px solid #000000;
+    margin: 10px;
+}
+.task-1__p {
+    letter-spacing: 1px;
+}
+.task-2__p {
+    letter-spacing: 3px;
+}
+.task-3__p {
+    letter-spacing: -1px;
+}
+.task-4__p {
+    word-spacing: 3px;
+}
+.task-5__p {
+    word-spacing: 0;
+}
+.task-6__p {
+    text-transform: uppercase;
+}
+.task-7__p .task-7__p__span {
+    text-transform: uppercase;
+}
+.task-8 {
+    width: 100%;
+}
+.task-8__p {
+    text-transform: capitalize;
+}
+.task-9 {
+    width: 100%;
+}
+.task-9__p {
+    margin: 0 auto;
+    width: 900px;
+    text-align: justify;
+    text-align-last: center;
+}
+.task-10 .img-1 {
+    border: 1 px solid #000000;
+}
+.task-10__p::first-letter {
+    color: #ff0000;
+    text-transform: uppercase;
+}
+.task-11    .img-1 {
+    border: 1 px solid #000000;
+}
+.task-11__p::first-line {
+    color: #ff0000;
+}

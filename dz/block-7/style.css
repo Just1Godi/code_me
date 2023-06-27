@@ -1,0 +1,42 @@
+@import url("/dz/style.css");
+.table__r .tr__d {
+    height: 40px;
+    width: 100px;
+}
+.task-1__table {
+    border-collapse: collapse;
+}
+.task-2__table {
+    border-spacing: 10px;
+}
+.task-3__table {
+    border-spacing: 20px;
+}
+.task-4__table {
+    border-spacing: 20px 60px;
+}
+.task-5-1__table {
+    empty-cells: hide;
+}
+.task-5-2__table {
+    empty-cells: show;
+    border-spacing: 10px;
+}
+.task-6__table .table__r{
+    /* vertical-align: middle;
+    по дефолту стоит */
+}
+.task-7__table .table__r{
+    vertical-align: top;
+}
+.task-8__table .tr__d{
+    vertical-align: top;
+    text-align: right;
+}
+.task-9__table .tr__d{
+    vertical-align: bottom;
+}
+.task-10__table .tr__d{
+    text-align: right;
+    vertical-align: bottom;
+}
