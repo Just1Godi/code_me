@@ -1,46 +1,22 @@
 @import url("/dz/style.css");
-.task-1__p {
-    white-space: pre;
+.task-3__txt::placeholder {
+    color: #00ff00;
 }
-.task-2__p {
-    display: flex;
-    white-space: pre;
+.task-4__txtar::placeholder {
+    color: #00ff00;
 }
-.task-3__p {
-    display: flex;
-    white-space: pre;
+.task-5__form {
+    flex-direction: column;
 }
-.task-3__p p:first-child {
-    user-select: none;
+.task-5__col {
+    margin: 10px 0;
 }
-.button-4:hover {
-    cursor: pointer;
+.task-5__txt,
+.task-5__txtar {
+    width: 300px;
+    font-size: 16px;
 }
-.button-4 {
-    background-color: #cc00ff;
-    width: 100%;
-    height: 50px;
-    /* pointer-events: none; */
-}
-.task-5__link {
-    pointer-events: none;
-}
-.task-6__link a:hover {
-    cursor: no-drop;
-}
-.p-7-1::selection {
-    color: #cc00ff;
-    background-color: #006eff;
-}
-.p-7-2::selection {
-    color: #09ff00;
-    background-color: #ff0000;
-}
-.p-7-3::selection {
-    color: #c8ff00;
-    background-color: #ff9900;
-}
-.p-7-4::selection {
-    color: #fffafa;
-    background-color: #000000;
+.task-5__txt::placeholder,
+.task-5__txtar::placeholder {
+    color: #00ff00;
 }

@@ -1,296 +1,262 @@
 "use strict";
-//tema 80
-// Объекты в JavaScript
+// Конструкция if-else в JavaScrip
 
-//task 1
+//tema 105
+// Операторы больше и меньше в JavaScript
 
-// let obj = {1: 'Понедельник', 2: 'Вторник', 3: 'Среда', 4: 'Четверг', 5: 'Пятница', 6: 'Суббота', 7: 'Воскресенье'};
-// let i = 1;
-// console.log (obj[i], obj[++i], obj[++i], obj[4], obj[5], obj[6], obj[++i], );
+// task 1 Проверьте, что переменная test больше 10.
+// let test = 10;
 
-//tema 81
-// Вывод всего объекта в JavaScript
-
-//task 1
-
-// let obj = {1: 'Январь', 2: 'Февраль', 3: 'Март', 4: 'Апрель', 5: 'Май', 6: 'Июнь', 7: 'Июль', 8: 'Август', 9: 'Сентябрь', 10: 'Октябрь', 11: 'Ноябрь', 12: 'Декабрь'};
-// alert (obj);
-// выведет [Object object]
-// console.log (obj);
-
-//tema 82
-// Строковые ключи объектов в JavaScript
-
-// let user = {nname: 'qwerty', surname: 'ytrewq', patronymic: 'zxc'};
-// alert (`${user['nname']} ${user['surname']} ${user['patronymic']}`);
-
-//tema 83
-// Свойства объектов в JavaScript
-
-// let date = {
-//     year: '2023', 
-//     month: '06', 
-//     day: '27'
-// };
-// alert (`Today is ${date.day}.${date.month}.${date.year}`);
-
-//tema 84
-// Ограничения на ключи объектов в JavaScript
-
-// Исправьте ошибки, допущенные в следующем коде:
-// let obj = {
-// 	'1a': 1,
-// 	'b2': 2,
-// 	'с-с': 3,
-// 	'd 4': 4,
-// 	'e5': 5
-// };
-// console.log(obj.1a);
-// console.log(obj.b2);
-// console.log(obj.c-c);
-// console.log(obj.d 4);
-// console.log(obj.e5);
-
-// let obj = {
-// 	'1a': 1,
-// 	b2: 2,
-// 	'c-c': 3,
-// 	'd 4': 4,
-// 	e5: 5
-// };
-// console.log(obj['1a']);
-// console.log(obj.b2);
-// console.log(obj['c-c']);
-// console.log(obj['d 4']);
-// console.log(obj.e5);
-
-//tema 85
-// Изменение элементов объектов в JavaScript
-
-// Дан объект:
-// let obj = {x: 1, y: 2, z: 3};
-// Возведите в квадрат каждый элемент этого объекта.
-
-// let obj = {x: 1, y: 2, z: 3};
-// obj.x **= obj.x;
-// obj.y **= obj.y;
-// obj.z **= obj.z;
-// console.log (obj);
-
-//tema 86
-// Добавление элементов в объекты в JavaScript
-
-// let obj = {};
-// obj.a = 1;
-// obj.b = 2;
-// obj.c = 3;
-// console.log (obj);
-
-//tema 87
-// Неупорядоченность объектов в JavaScript
-
-// Создайте объект и убедитесь, что порядок ключей в нем не имеет значения.
-
-// let obj = {
-//     a: 1,
-//     b: 2,
-//     c: 3
-// };
-// console.log (obj);
-// let obj = {
-//     c: 3,
-//     b: 2,
-//     a: 1
-// };
-// console.log (obj);
-
-//tema 88
-// Массив ключей объекта в JavaScript
-
-// Получите массив ключей следующего объекта:
-
-// let obj1 = {x: 1, y: 2, z: 3};
-// let keys1 = Object.keys (obj1);
-// console.log (keys1);
-
-// в любом случае выводит как стринги
-
-// let obj2 = {4: 1, 5: 2, 6: 3};
-// let keys2 = Object.keys (obj2);
-// console.log (keys2);
-
-//tema 89
-// Длина объекта в JavaScript
-
-// Найдите количество элементов в следующем объекте:
-// console.log(obj.length); // выведет undefined
-
-// let obj = {x: 1, y: 2, z: 3};
-// console.log (Object.keys(obj).length);
-
-//tema 90
-// Ключи объектов из переменных в JavaScript
-
-// Дан следующий объект:
-// Дана переменная key, в которой хранится один из ключей нашего объекта. Выведите с помощью этой переменной соответствующий элемент объекта.
-
-// let obj = {
-//     x: 1, 
-//     y: 2, 
-//     z: 3
-// };
-// let key;
-// key = 'x';
-// alert (obj[key]);
-// key = 'y';
-// alert (obj[key]);
-// key = 'z';
-// alert (obj[key]);
-
-//tema 91
-// Ошибка обращения к элементу по ключу в JavaScript
-
-// task 1 Исправьте ошибку, допущенную в следующем коде:
-
-// let obj = {x: 1, y: 2, z: 3};
-// console.log(obj[x]);
-
-// let obj = {x: 1, y: 2, z: 3};
-// console.log(obj['x']);
-
-// task 2 Исправьте ошибку, допущенную в следующем коде:
-
-// let obj = {x: 1, y: 2, z: 3};
-// let key = 'x';
-// console.log(obj['key']);
-
-// let obj = {x: 1, y: 2, z: 3};
-// let key = 'x';
-// console.log(obj[key]);
-
-//tema 92
-// Ошибка обращения к свойству объекта в JavaScript
-
-// task 1 Исправьте ошибку, допущенную в следующем коде:
-
-// let obj = {x: 1, y: 2, z: 3};
-// let prop = 'x';
-// console.log(obj.prop);
-
-// let obj = {x: 1, y: 2, z: 3};
-// let prop = 'x';
-// console.log(obj [prop]);
-
-// task 2 Исправьте ошибку, допущенную в следующем коде:
-
-// let obj = {x: 1, y: 2, z: 3};
-// let prop = 'x';
-// console.log(obj['prop']);
-
-// let obj = {x: 1, y: 2, z: 3};
-// let prop = 'x';
-// console.log(obj[prop]);
-
-//tema 93
-// Вычисляемые свойства в JavaScript
-
-// task 1 В следующем коде ключ должен был взяться из переменной. Исправьте допущенную ошибку:
-
-// let key = 'x';
-// let obj = {
-// 	key: 1,
-// 	y: 2,
-// 	z: 3
+// if (test < 10) {
+//     console.log('+');
+// } else {
+//     console.log('-');
 // }
 
-// let key = 'x';
-// let obj = {
-// 	[key]: 1,
-// 	y: 2,
-// 	z: 3
-// };
-// console.log (obj [key]);
+// if (test > 10) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
 
-// Дан объект:
-// let obj = {
-// 	x: 1,
-// 	y: 2,
-// 	z: 3
-// };
-// Даны переменные:
-// let key1 = 'x';
-// let key2 = 'y';
-// let key3 = 'z';
-// Сделайте так, чтобы ключи объекта брались из этих переменных.
+// if (test >= 10) {
+//     console.log('+');
+// } else {
+//     console.log ('-');
+// }
 
-// let key1 = 'x';
-// let key2 = 'y';
-// let key3 = 'z';
-// let obj = {
-// 	[key1]: 1,
-// 	[key2]: 2,
-// 	[key3]: 3
-// };
-// console.log (obj [key1]);
-// console.log (obj [key2]);
-// console.log (obj [key3]);
+// if (test <= 10) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
 
-// test
-// let key = 'x';
-// let obj = {
-//     [key + '1']: 'x',
-//     [key + '2']: 'y',
-//     [key + '3']: 'z'
-// };
-// console.log (obj ['x3']);
+//tema 106
+// Проверка на равенство в JavaScript
 
-//tema 103
-// Поиск ошибок в коде с объектами JavaScript
 
-// task 1 Код должен вывести элемент объекта:
-// let obj = {x: 1, y: 2, z: 3};
-// console.log(obj[x]);
+// task 1 Проверьте, что переменная test равна 10.
 
-// let obj = {
-//     x: 1, 
-//     y: 2, 
-//     z: 3
-// };
-// console.log(obj.x);
+// let test = 10;
+// let test = 11;
+// if (test == 10) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
 
-// task 2 Код должен вывести элемент объекта по ключу из переменной:
-// let obj = {x: 1, y: 2, z: 3};
-// let key = 'x';
-// console.log(obj.key);
+//tema 107
+// Проверка на неравенство в JavaScript
 
-// let obj = {
-//     x: 1, 
-//     y: 2, 
-//     z: 3
-// };
-// let key = 'x';
-// console.log(obj [key]);
+// task 1 Проверьте, что переменная test не равна 10.
+// let test = 10;
+// let test = 9;
+// if (test != 10) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
 
-// task 3 Код должен вывести сумму элементов объекта:
-// let obj = {x: 1, y: 2, z: 3};
-// let sum = obj[x] + obj[y] + obj[x];
-// console.log(obj)
+//tema 108
+// Сравнение переменных в JavaScript
 
-// let obj = {
-//     x: 1,
-//     y: 2,
-//     z: 3
-// };
-// let sum = obj['x'] + obj['y'] + obj['z'];
-// console.log(sum)
+// task 1 Даны переменные test1 и test2. Проверьте, что значение какой из этих переменных больше и выведите соответствующее сообщение.
+// let test1 = 10, test2 = 9;
+// let test1 = 9, test2 = 10;
+// if (test1 > test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
 
-// task 4 Код должен вывести количество элементов объекта:
-// let obj = {x: 1, y: 2, z: 3};
-// console.log(obj.length);
+// task 2 Даны переменные test1 и test2. Проверьте, равны ли их значения и выведите соответствующее сообщение.
+// let test1 = 10, test2 = 9;
+// let test1 = 10, test2 = 10;
+// if (test1 == test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
 
-// let obj = {
-//     x: 1,
-//     y: 2,
-//     z: 3
-// };
-// console.log(Object.keys(obj).length);
+//tema 109
+// Равенство строк в JavaScript
+
+// task 1 Даны переменные test1 и test2, содержащие строки. Проверьте, равны ли их значения и выведите соответствующее сообщение.
+// let test1 = 'qwer', test2 = 'qwert';
+// let test1 = 'qwer', test2 = 'qwer';
+// if (test1 == test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+
+//tema 110
+// Равенство строк и чисел в JavaScript
+
+// task 1 Проверьте, равны ли значения переменных и выведите соответствующее сообщение.
+// let test1 = '123';
+// let test2 = 123;
+// if (test1 == test2) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+// if (test2 == test1) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+
+//tema 113
+// Логическое И в JavaScript
+
+// task 1 Проверьте, что переменная num больше нуля и меньше 5.
+// let num = 4;
+// let num = 6;
+// let num = -1;
+// if (num > 0 && num < 5) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+
+// task 2 Проверьте, что переменная num больше или равна 10 и меньше или равна 20.
+// let num = 10;
+// num = 20;
+// num = 11;
+// num = 9;
+// num = 21;
+// if (num >= 10 && num <=20) {
+//     console.log('+');
+// } else {
+//     console.log ('-');
+// }
+
+// task 3 Проверьте, что переменная num1 равна или меньше 1, а переменная num2 больше или равна 3.
+// let num1 = 1, num2 = 3;
+// num1 = 2;
+// num1 = 1, num2 = 2;
+// num1 = 2, num2 = 2;
+// if (num1 <= 1 && num2 >= 3) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+
+//tema 114
+// Логическое ИЛИ в JavaScript
+
+// task 1 Не запуская код определите, что выведется в консоль:
+// let num1 = 10;
+// let num2 = -10;
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// task 8 Не запуская код определите, что выведется в консоль:
+// let num = 2;
+// if (num == 0 || num == 1 || num == 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//tema 115
+// Приоритет логических операторов в JavaScript
+// Операция && имеет приоритет над ||.
+
+// task 1 Расскажите порядок выполнения сравнения в следующем условии:
+// if (num == 0 || num > 1 && num < 5 ) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// при num строго равном нулю и при num строго больше нуля и меньше 5 будет '+++'
+
+//tema 116
+// Группировка условий в JavaScript
+
+// task 1 В приведенном ниже коде укажите приоритет операций в явном виде:
+// let num = 3;
+// if (num > 5 && num < 10 || num == 20) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 3;
+// num = 6;
+// num = 11;
+// num = 20;
+// if (num > 5 && (num < 10 || num ==20)) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+
+// task 2 В приведенном ниже коде укажите приоритет операций в явном виде:
+// let num = 3;	
+// if (num > 5 || num > 0 && num < 3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 3;
+// num = 6;
+// num = 2;
+// if ((num > 5 || num > 0) && num < 3) {
+//     console.log ('+');
+// } else {
+//     console.log('-');
+// }
+
+// task 3 В приведенном ниже коде укажите приоритет операций в явном виде:
+// let num = 3;
+// if (num == 9 || num > 10 && num < 20 || num > 20 && num < 30) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num = 3;
+// num = 9;
+// num = 10;
+// num = 19;
+// num = 20;
+// num = 29;
+// num = 30;
+// if ((num == 9 || num > 10) && (num < 20 || num > 20) && num < 30) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+
+//tema 117
+// Инвертирование логических выражений в JavaScript
+
+// task 1 Дан следующий код Используя оператор ! инвертируйте приведенное условие.
+// if (num1 >= 0 || num2 <= 10) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let num1 = 1, num2 = 9;
+// num1 = -1;
+// if (!(num1 >= 0) || !(num2 <= 10)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// или работает как и должно
+
+// let num1 = 1, num2 = 9;
+// num1 = -1, num2 =11;
+// if (!(num1 >= 0 || num2 <= 10)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// должны выполняться оба условия

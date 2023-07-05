@@ -4,11 +4,27 @@
     margin: 0;
     padding: 0;
 }
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+.aside {
+    background-color: cadetblue;
+    width: 15%;
+}
 .task__img {
     border: 1px solid #000000;
 }
 .hr {
-    border: 1px solid #0000003a;
+    border: 1px solid #000000;
+}
+.border {
+    border: 1px solid #000000;
+    outline: 0;
+}
+.bord-rad {
+    border-radius: 4px;
+    padding: 5px;
 }
 .aqua {
     background-color: #00f7ff;
@@ -75,13 +91,9 @@
     color: #ffffff;
 }
 .main {
-    max-width: 70%;
-    display: grid;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.main-2 {
-    max-width: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -94,6 +106,8 @@
     margin: 0 0 20px 0;
     background-color: #08e792ce;
     font-size: 30px;
+    position: sticky;
+    top: 50px;
 }
 .main-button:hover {
     cursor: pointer;
@@ -101,6 +115,9 @@
 .row {
     height: 300px;
     width: 100%;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
 }
 .row-link {
     border: 1px solid #ff0000;
@@ -110,6 +127,8 @@
     text-decoration: none;
     color: #000000;
     font-size: 48px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .row-block {
     height: 100%;
@@ -123,4 +142,14 @@
     background-color: #00f5e9;
     font-size: 36px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__prev {
+    display: inline-block;
+    margin-left: 15px;
+}
+.footer__next {
+    display: inline-block;
+    margin-right: 15px;
 }

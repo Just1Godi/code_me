@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="/dz/img/shortcut.png" />
-    <title>Block</title>
+    <title>Block 9</title>
 </head>
 <body class="body">
     <header class="header">
@@ -17,49 +17,54 @@
             <a href="#" class="nav__link">In progress...</a>
         </nav>
     </header>
-    <main class="main-2 div--center">
-        <button class="main-button"><a class="button__link link" href="/dz/index.html">На главную</a></button>
-        <hr class="hr" />
-        <div class="task-1 div--center">
-            <h1 class="h1--center">Task 1</h1>
-            <div class="task__img div--center">
-                <img src="img/task 1.png" alt="DickPick" class="img--block" />
+    <div class="wrapper">
+        <aside class="aside">
+            <div></div>
+        </aside>
+        <main class="main div--center">
+            <button class="main-button"><a class="button__link link" href="/dz/index.html">На главную</a></button>
+            <hr class="hr" />
+            <h1 class="h1--center">Блокировка элементов форм на HTML</h1>
+            <hr class="hr" />
+            <div class="task-1 div--center">
+                <h1 class="task__h1 h1--center">Task 1</h1>
+                <div class="task__img div--center">
+                    <img src="img/task 1.png" alt="DickPick" class="img--block">
+                </div>
+                <form class="task-1__form" action="">
+                    <fieldset class="task-1__field border">
+                        <legend class="task-1__legend">Make your choise</legend>
+                        <input type="radio" class="task-1__input_radio input">
+                        <input type="radio" class="task-1__input_radio input">
+                        <input type="radio" class="task-1__input_radio input">
+                        <input type="text" class="task-1__input_txt input border" placeholder="your name...">
+                    </fieldset>
+                    <fieldset class="task-1__field border">
+                        <legend class="task-1__legend">Make your choise</legend>
+                        <input type="radio" class="task-1__input_radio input">
+                        <input type="radio" class="task-1__input_radio input">
+                        <input type="radio" class="task-1__input_radio input">
+                        <input type="radio" class="task-1__input_radio input" disabled>
+                        <input type="radio" class="task-1__input_radio input" disabled>
+                    </fieldset>
+                </form>
             </div>
-            <div class="task-1__div aqua div--center"></div>
-        </div>
-        <hr class="hr" />
-        <div class="task-2 div--center">
-            <h1 class="h1--center">Task 2</h1>
-            <div class="task__img div--center">
-                <img src="img/task 2.png" alt="DickPick" class="img--block" />
-            </div>
-            <div class="task-2__div aqua div--center"></div>
-        </div>
-        <hr class="hr" />
-        <div class="task-3 div--center">
-            <h1 class="h1--center">Task 3</h1>
-            <div class="task__img div--center">
-                <img src="img/task 3.png" alt="DickPick" class="img--block" />
-            </div>
-            <div class="task-3__div aqua div--center"></div>
-        </div>
-        <hr class="hr" />
-        <div class="task-4 div--center">
-            <h1 class="h1--center">Task 4</h1>
-            <div class="task__img div--center">
-                <img src="img/task 4.png" alt="DickPick" class="img--block" />
-            </div>
-            <div class="task-4__div aqua div--center"></div>
-        </div>
-    </main>
-    <aside class="aside">
-        <div></div>
-    </aside>
+        </main>
+        <aside class="aside">
+            <div></div>
+        </aside>
+    </div>
     <footer class="footer">
-        <div>
+        <div class="footer__prev">
+            <a href="/dz/block-8/index.html" class="prev__link link">Previous</a>
+        </div>
+        <div class="footer__cop">
             <p>
                 CopyRight
             </p>
+        </div>
+        <div class="footer__next">
+            <a href="/dz/block-/index.html" class="next__link link">Next</a>
         </div>
     </footer>
 </body>

@@ -1,62 +1,55 @@
 @import url("/dz/style.css");
-.main {
+.task-1__form {
+}
+.task-1__txt {
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.task-1__btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.task-1__btn:hover {
+    cursor: pointer;
+}
+.task-2__txt {
+    border-color: #ff0000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.task-2__txt:focus {
+    outline: 0 !important;
+}
+.task-3__txt {
+    height: 50px;
+    width: 200px;
+}
+.task-4__txt {
+    height: 50px;
+    width: 200px;
+    margin-top: 5px;
+    outline: 0 !important;
+}
+.task-4__form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
-.p--center {
-    margin: 5px 0;
-}
-.task__img {
-    border: 1px solid #000000;
-    margin: 10px;
-}
-.task-1__p {
-    letter-spacing: 1px;
-}
-.task-2__p {
-    letter-spacing: 3px;
-}
-.task-3__p {
-    letter-spacing: -1px;
-}
-.task-4__p {
-    word-spacing: 3px;
-}
-.task-5__p {
-    word-spacing: 0;
-}
-.task-6__p {
-    text-transform: uppercase;
-}
-.task-7__p .task-7__p__span {
-    text-transform: uppercase;
-}
-.task-8 {
-    width: 100%;
-}
-.task-8__p {
-    text-transform: capitalize;
-}
-.task-9 {
-    width: 100%;
-}
-.task-9__p {
-    margin: 0 auto;
-    width: 900px;
-    text-align: justify;
-    text-align-last: center;
-}
-.task-10 .img-1 {
-    border: 1 px solid #000000;
-}
-.task-10__p::first-letter {
+.task-6__txt {
     color: #ff0000;
-    text-transform: uppercase;
+    padding: 0.2em;
 }
-.task-11    .img-1 {
-    border: 1 px solid #000000;
+.form__lbl {
+    margin: 0 10px;
 }
-.task-11__p::first-line {
-    color: #ff0000;
+.task-8__txt-1,
+.task-8__txt-2 {
+    border-radius: 5px;
+    outline: 0 !important;
+    height: 30px;
+    width: 150px;
+}
+.form__column {
+    margin: 10px 0;
 }

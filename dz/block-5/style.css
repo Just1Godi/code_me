@@ -1,27 +1,14 @@
 @import url("/dz/style.css");
-.task__img {
-    border: 1px solid #000000;
+.task-1__txtar {
+    resize: horizontal;
 }
-.task-1__p {
-    text-align: justify;
-    column-count: auto;
-    column-width: 300px;
+.task-2__txtar {
+    resize: vertical;
 }
-.task-2__p {
-    text-align: justify;
-    column-count: 4;
-    column-width: auto;
+.task-3__txtar {
+    resize: none;
 }
-.task-3__p {
-    text-align: justify;
-    column-count: 4;
-    column-width: auto;
-    column-gap: 30px;
-}
-.task-4__p {
-    text-align: justify;
-    column-count: 4;
-    column-width: auto;
-    column-gap: 30px;
-    column-rule: 3px dotted #000000;
+.task-4__txtar {
+    max-height: 200px;
+    max-width: 400px;
 }

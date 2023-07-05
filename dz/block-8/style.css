@@ -1,47 +1,4 @@
 @import url("/dz/style.css");
-.list-1__item:after {
-    content: ".";
-}
-.article-2__square {
-    display: inline-block;
-    margin-right: 10px;
-    margin-top: 5px;
-    position: relative;
-}
-.square__span:after {
-    content: '';
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background-color: #ff0000;
-    position: absolute;
-    top: -5px;
-}
-.task-3__article {
-    counter-reset: test;
-}
-.task-3__counter:before {
-    counter-increment: test;
-    content: counter(test);
-}
-.task-4__article {
-    counter-reset: test;
-}
-.task-4__counter:before {
-    counter-increment: test;
-    content: "№ " counter(test);
-}
-.article-5--attr {
-    display: inline-block;
-    position: relative;
-}
-.article-5__link {
-    text-decoration: none;
-    color: #00ffff;
-}
-.article-5__link:hover:after {
-    content: ' ('attr(href)')';
-    position: absolute;
-    top: -10px;
-    left: 0;
+.disabled {
+    border: 1px solid #00000025;
 }
