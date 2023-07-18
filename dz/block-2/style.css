@@ -1,4 +1,9 @@
 @import url("/dz/style.css");
-.task-3__lbl {
-    margin-left: 10px;
+.input__txt_focus:focus {
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 3px #ff0000;
+}
+.task-2__txt:focus {
+    border-width: 2px;
+    box-shadow: 0 0 3px #ff0000;
 }

@@ -1,55 +1,16 @@
 @import url("/dz/style.css");
-.task-1__form {
-}
-.task-1__txt {
-    font-size: 16px;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-.task-1__btn {
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 0 10px;
-}
-.task-1__btn:hover {
+.input_hover:hover {
+    background-color: #e6e6e6;
     cursor: pointer;
 }
-.task-2__txt {
-    border-color: #ff0000;
-    border-radius: 5px;
-    font-size: 16px;
+.txt__placeHolder_tr:focus::placeholder {
+    color: transparent;
 }
-.task-2__txt:focus {
-    outline: 0 !important;
-}
-.task-3__txt {
-    height: 50px;
-    width: 200px;
-}
-.task-4__txt {
-    height: 50px;
-    width: 200px;
-    margin-top: 5px;
-    outline: 0 !important;
-}
-.task-4__form {
-    display: flex;
-    flex-direction: column;
-}
-.task-6__txt {
-    color: #ff0000;
-    padding: 0.2em;
-}
-.form__lbl {
-    margin: 0 10px;
-}
-.task-8__txt-1,
-.task-8__txt-2 {
-    border-radius: 5px;
-    outline: 0 !important;
-    height: 30px;
-    width: 150px;
-}
-.form__column {
-    margin: 10px 0;
+.task-4__label input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
 }

@@ -1,22 +1,31 @@
 @import url("/dz/style.css");
-.task-3__txt::placeholder {
-    color: #00ff00;
+.task-1__text {
+    text-shadow: 10px 5px 3px #ff0000;
 }
-.task-4__txtar::placeholder {
-    color: #00ff00;
+.task-2__text {
+    text-shadow: -10px -5px 0 #00ff00;
 }
-.task-5__form {
-    flex-direction: column;
+.task-3__text {
+    text-shadow: 15px -10px 0 #00ff00;
 }
-.task-5__col {
-    margin: 10px 0;
+.task-4__text {
+    text-shadow: 0 0 5px #00ff00;
 }
-.task-5__txt,
-.task-5__txtar {
-    width: 300px;
-    font-size: 16px;
+.task-5__text {
+    text-shadow: 0 15px 0 #00ff00, 0 -15px 0 #ff0000;
 }
-.task-5__txt::placeholder,
-.task-5__txtar::placeholder {
-    color: #00ff00;
+.task-6__text {
+    text-shadow: 3px 2px 3px;
+}
+.task-7__text {
+    text-shadow: 0 0 3px;
+}
+.task-8__text {
+    text-shadow: 0 0 3px #ff0000;
+}
+.task-9__text {
+    text-shadow: 9px 11px 3px #ff0000, -9px -11px 3px #0000ff;
+}
+.task-10__text {
+    text-shadow: 9px 11px 0 #ff0000, 18px 20px 0 #0000ff;
 }

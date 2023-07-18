@@ -1,11 +1,12 @@
 @import url("/dz/style.css");
-.lbl {
-    margin: 0 10px;
-}
-.task-3__form {
+.task-1__form {
     display: flex;
     flex-direction: column;
 }
-.task-3__col {
-    margin: 5px 0;
+.task-1__checkbox:checked + .task-1__lbl {
+    color: #ff0000;
+}
+.task-2__txt_disabled:disabled {
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 3px #ff0000;
 }

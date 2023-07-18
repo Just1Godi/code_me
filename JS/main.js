@@ -260,3 +260,120 @@
 // 	console.log('---');
 // }
 // должны выполняться оба условия
+
+//tema 118
+// Условия с булевыми значениями в JavaScript
+
+// task 1 Проверьте, что переменная test равна true.
+// let test = true;
+// let test = false;
+// if (test === true) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+
+// task 2 Проверьте, что переменная test равна false.
+// let test = false;
+// let test = true;
+// if (test === false) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// }
+
+//tema 119
+// Сравнение значений с булевым типом в JavaScript
+
+// task 1 Вспомните и напишите, какие значения при приведении к логическому типу дают false.
+// console.log(Boolean(0));          // false
+// console.log(Boolean(-0));         // false
+// console.log(Boolean(+0));         // false
+// console.log(Boolean(null));       // false
+// console.log(Boolean(false));      // false
+// console.log(Boolean(NaN));        // false
+// console.log(Boolean(undefined));  // false
+// console.log(Boolean(''));         // false
+// Все кроме не пустой строки, всех отриательных чисел кроме нуля, плюс/минус бесконечности
+
+// task 2 Не запуская код, определите, что выведется в консоль:
+// let test = 1;	
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// +++
+
+// task 3 Не запуская код, определите, что выведется в консоль:
+// let test = 0;	
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// ---
+
+// task 4 Не запуская код, определите, что выведется в консоль:
+// let test = 1;
+// if (test == false) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// ---
+
+// task 5 Не запуская код, определите, что выведется в консоль:
+// let test = 1;
+// if (test != true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// ---
+
+// task 6 Не запуская код, определите, что выведется в консоль:
+// let test = '';
+// if (test == false) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// +++
+
+// task 7 Не запуская код, определите, что выведется в консоль:
+// let test;
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// ---
+
+// task 8 Не запуская код, определите, что выведется в консоль:
+// let test = 3 * 'a';
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// ---
+
+//tema 120
+// Сокращенная форма проверки на истину в JavaScript
+
+// task 1 Перепишите следующий код с использованием сокращенной формы:
+// let test = true;
+// if (test === true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test = true;
+// let test = false;
+// if (test) {
+//     console.log('+');
+// } else {
+//     console.log('-');
+// };

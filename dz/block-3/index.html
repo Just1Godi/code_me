@@ -24,7 +24,7 @@
         <main class="main div--center">
             <button class="main-button"><a class="button__link link" href="/dz/index.html">На главную</a></button>
             <hr class="hr" />
-            <h1 class="h1--center">Чекбоксы на HTML</h1>
+            <h1 class="h1--center">Псевдоклассы для элементов форм на HTML</h1>
             <hr class="hr" />
             <div class="task-1 div--center">
                 <h1 class="task__h1 h1--center">Task 1</h1>
@@ -32,9 +32,14 @@
                     <img src="img/task 1.png" alt="DickPick" class="img--block">
                 </div>
                 <form class="task-1__form" action="">
-                    <input class="task-1__rd" type="radio" name="" id="">
-                    <input class="task-1__rd" type="radio" name="" id="">
-                    <input class="task-1__rd" type="radio" name="" id="" checked>
+                    <div class="task-1__col">
+                        <input class="task-1__checkbox" type="checkbox" name="" id="checkbox-1">
+                        <label class="task-1__lbl" for="checkbox-1">label</label>
+                    </div>
+                    <div class="task-1__col">
+                        <input class="task-1__checkbox" type="checkbox" name="" id="checkbox-2">
+                        <label class="task-1__lbl" for="checkbox-2">label</label>
+                    </div>
                 </form>
             </div>
             <hr class="hr" />
@@ -44,28 +49,8 @@
                     <img src="img/task 2.png" alt="DickPick" class="img--block">
                 </div>
                 <form class="task-2__form" action="">
-                    <input class="task-2__rd-1" type="radio" name="" id=""> <label for="task-2__rd-1" class="task-2__lbl lbl">Я изуаю вёрстку</label>
-                    <input class="task-2__rd-2" type="radio" name="" id=""> <label for="task-2__rd-2" class="task-2__lbl lbl">Я изуаю JavaScript</label>
-                    <input class="task-2__rd-3" type="radio" name="" id=""> <label for="task-2__rd-3" class="task-2__lbl lbl">Я изуаю PHP</label>
-                </form>
-            </div>
-            <hr class="hr" />
-            <div class="task-3 div--center">
-                <h1 class="task__h1 h1--center">Task 3</h1>
-                <div class="task__img div--center">
-                    <img src="img/task 3.png" alt="DickPick" class="img--block">
-                </div>
-                <form class="task-3__form" action="">
-                    <div class="task-3__col">
-                        <input class="task-3__rd-1" type="radio" name="" id=""> <label for="task-3__rd-1" class="task-3__lbl lbl">Я изуаю вёрстку</label>
-                    </div>
-                    <div class="task-3__col">
-                        <input class="task-3__rd-2" type="radio" name="" id=""> <label for="task-3__rd-2" class="task-3__lbl lbl">Я изуаю JavaScript</label>
-                    </div>
-                    <div class="task-3__col">
-                        <input class="task-3__rd-3" type="radio" name="" id=""> <label for="task-3__rd-3" class="task-3__lbl lbl">Я изуаю PHP</label>
-                    </div>
-                </form>
+                        <input class="task-2__txt border padding margin" type="text" name="" id="" placeholder="text">
+                        <input class="task-2__txt_disabled border padding margin" type="text" name="" id="" value="text" disabled>
             </div>
         </main>
         <aside class="aside">

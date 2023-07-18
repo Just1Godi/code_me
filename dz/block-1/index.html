@@ -24,52 +24,50 @@
         <main class="main div--center">
             <button class="main-button"><a class="button__link link" href="/dz/index.html">На главную</a></button>
             <hr class="hr" />
-            <h1 class="h1--center">Основные элементы HTML формы</h1>
+            <h1 class="h1--center">Типы инпутов на HTML</h1>
             <hr class="hr" />
             <div class="task-1 div--center">
-                <h1 class="task__h1 h1--center">Task 1</h1>
+                <h1 class="task__h1 h1--center">Task 1 Кнопки</h1>
                 <div class="task__img div--center">
                     <img src="img/task 1.png" alt="DickPick" class="img--block">
                 </div>
                 <form class="task-1__form" action="">
-                    <input class="task-1__txt border" type="text" name="task-1__txt" id="" />
-                    <input class="task-1__txt border" type="text" name="task-1__txt" id="" />
-                    <input class="task-1__btn border" type="submit" value="Submit" />
+                    <input class="task-1__txt border padding txt__placeHolder_tr" type="text" name="task-1__txt" id="" placeholder="Enter your text" />
+                    <input class="task-1__sbt border padding input_hover" type="submit" value="Отправить" />
                 </form>
             </div>
             <hr class="hr" />
             <div class="task-2 div--center">
-                <h1 class="task__h1 h1--center">Task 2</h1>
+                <h1 class="task__h1 h1--center">Task 2 Кнопки</h1>
                 <div class="task__img div--center">
                     <img src="img/task 2.png" alt="DickPick" class="img--block">
                 </div>
                 <form class="task-2__form" action="">
-                    <input class="task-2__txt border" type="text" name="task-2__txt" id="" />
-                    <input class="task-2__txt border" type="text" name="task-2__txt" id="" />
+                    <input class="task-2__txt border padding txt__placeHolder_tr" type="text" name="task-2__txt" id="" placeholder="Enter your text" />
+                    <input type="reset" value="Сбросить" class="task-2__rst border padding input_hover" />
                 </form>
             </div>
             <hr class="hr" />
             <div class="task-3 div--center">
-                <h1 class="task__h1 h1--center">Task 3</h1>
+                <h1 class="task__h1 h1--center">Task 3 Поле для пароля</h1>
                 <div class="task__img div--center">
                     <img src="img/task 3.png" alt="DickPick" class="img--block">
                 </div>
                 <form class="task-3__form" action="">
-                    <input class="task-3__txt border" type="text" name="task-3__txt" id="" />
-                    <input class="task-3__txt border" type="text" name="task-3__txt" id="" />
-                    <input class="task-3__txt border" type="text" name="task-3__txt" id="" />
+                    <input class="task-3__pass border padding txt__placeHolder_tr" type="password" name="task-3__txt" id="" placeholder="Enter your password" />
                 </form>
             </div>
             <hr class="hr" />
             <div class="task-4 div--center">
-                <h1 class="task__h1 h1--center">Task 4</h1>
+                <h1 class="task__h1 h1--center">Task 4 Файл</h1>
                 <div class="task__img div--center">
                     <img src="img/task 4.png" alt="DickPick" class="img--block">
                 </div>
                 <form class="task-4__form" action="">
-                    <input class="task-4__txt border" type="text" name="task-4__txt" id="" />
-                    <input class="task-4__txt border" type="text" name="task-4__txt" id="" />
-                    <input class="task-4__txt border" type="text" name="task-4__txt" id="" />
+                    <label class="task-4__label">
+                        <input type="file" name="file" id="" class="task-4__file">
+                        <span class="span__file border input_hover padding">Выберете файл</span>
+                    </label>
                 </form>
             </div>
             <hr class="hr" />
@@ -77,47 +75,55 @@
                 <h1 class="task__h1 h1--center">Task 5</h1>
                 <div class="task__img div--center">
                     <img src="img/task 5.png" alt="DickPick" class="img--block">
-                </div>
-                <form class="task-5__form" action="">
-                    <input class="task-5__txt border" type="text" value="Name" name="task-5__txt" id="" />
-                    <input class="task-5__txt border" type="text" value="Surname" name="task-5__txt" id="" />
-                </form>
-            </div>
-            <hr class="hr" />
-            <div class="task-6 div--center">
-                <h1 class="task__h1 h1--center">Task 6</h1>
-                <div class="task__img div--center">
                     <img src="img/task 6.png" alt="DickPick" class="img--block">
                 </div>
-                <form class="task-6__form" action="">
-                    <input class="task-6__txt border" type="text" value="Name" name="task-6__txt" id="" />
-                    <input class="task-6__txt border" type="text" value="Surname" name="task-6__txt" id="" />
+                <hr class="hr" />
+                <form class="task-5-1__form margin" action="">
+                    <input id="" class="task-5-1__range" type="range" name="range">
                 </form>
-            </div>
-            <hr class="hr" />
-            <div class="task-7 div--center">
-                <h1 class="task__h1 h1--center">Task 7</h1>
-                <div class="task__img div--center">
-                    <img src="img/task 7.png" alt="DickPick" class="img--block">
-                </div>
-                <form class="task-7__form" action="">
-                    <label class="form__lbl" for="task-7__txt-1">Your Name</label><input class="task-7__txt-1 border" type="text" value="Name" name="task-7__txt" id="" />
-                    <label class="form__lbl" for="task-7__txt-2">Your Age</label><input class="task-7__txt-2 border" type="text" value="Surname" name="task-7__txt" id="" />
+                <hr class="hr" />
+                <form class="task-5-2__form margin" action="">
+                    <input id="" class="task-5-2__color" type="color" name="color">
                 </form>
-            </div>
-            <hr class="hr" />
-            <div class="task-8 div--center">
-                <h1 class="task__h1 h1--center">Task 8</h1>
-                <div class="task__img div--center">
-                    <img src="img/task 8.png" alt="DickPick" class="img--block">
-                </div>
-                <form class="task-8__form" action="">
-                    <div class="form__column">
-                        <input class="task-8__txt-1 border" type="text" name="task-8__txt" id="" /><label class="form__lbl" for="task-8__txt-1">Your Name</label>
-                    </div>
-                    <div class="form__column">
-                        <input class="task-8__txt-2 border" type="text" name="task-8__txt" id="" /><label class="form__lbl" for="task-8__txt-2">Your Age</label>
-                    </div>
+                <hr class="hr" />
+                <form class="task-5-3__form margin" action="">
+                    <input id="" class="task-5-3__number border padding" type="number" name="number">
+                </form>
+                <hr class="hr" />
+                <form class="task-5-4__form margin" action="">
+                    <input id="" class="task-5-4__mail border padding" type="email" name="mail" pattern=".+@globex\.com" size="30"  required>
+                </form>
+                <hr class="hr" />
+                <form class="task-5-5__form margin" action="">
+                    <input id="" class="task-5-5__url border padding txt__placeHolder_tr" type="url" name="url" placeholder="https:/example.com" pattern="https://.*" size="30" required>
+                </form>
+                <hr class="hr" />
+                <form class="task-5-6__form margin" action="">
+                    <input id="" class="task-5-6__tel border padding txt__placeHolder_tr" type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </form>
+                <hr class="hr" />
+                <form class="task-5-7__form margin" action="">
+                    <input id="" class="task-5-7__search border padding txt__placeHolder_tr" type="search" name="search">
+                </form>
+                <hr class="hr" />
+                <form class="task-5-8__form margin" action="">
+                    <input id="" class="task-5-8__date border padding txt__placeHolder_tr" type="date" name="date">
+                </form>
+                <hr class="hr" />
+                <form class="task-5-9__form margin" action="">
+                    <input id="" class="task-5-9__month border padding txt__placeHolder_tr" type="month" name="month">
+                </form>
+                <hr class="hr" />
+                <form class="task-5-10__form margin" action="">
+                    <input id="" class="task-5-10__week border padding txt__placeHolder_tr" type="week" name="week">
+                </form>
+                <hr class="hr" />
+                <form class="task-5-11__form margin" action="">
+                    <input id="" class="task-5-11__datetime border padding txt__placeHolder_tr" type="datetime" name="datetime">
+                </form>
+                <hr class="hr" />
+                <form class="task-5-12__form margin" action="">
+                    <input id="" class="task-5-12__datetime-local border padding txt__placeHolder_tr" type="datetime-local" name="datetime-local">
                 </form>
             </div>
         </main>

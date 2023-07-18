@@ -1,4 +1,23 @@
 @import url("/dz/style.css");
-.disabled {
-    border: 1px solid #00000025;
+.block {
+    height: 200px;
+    width: 200px;
+}
+.task-1__block {
+    background: linear-gradient(#ffee00, #ffffff);
+}
+.task-2__block {
+    background: linear-gradient(to right, #ffee00, #ffffff);
+}
+.task-3__block {
+    background: linear-gradient(to left, #ffee00, #ffffff);
+}
+.task-4__block {
+    background: linear-gradient(to top left, #ff0000, #ffffff);
+}
+.task-5__block {
+    background: linear-gradient(to right, #ff0000, #0000ff);
+}
+.task-6__block {
+    background: linear-gradient(to top, #ff0000 50%, #ffffff 50%);
 }

@@ -1,17 +1,29 @@
 @import url("/dz/style.css");
-.task-1__field {
-    font-size: 18px;
-    padding: 10px;
-    margin: 10px 0;
+.block {
+    height: 200px;
+    width: 200px;
 }
-.task-1__legend {
-    margin-left: 10px;
+.task-1__block {
+    background: radial-gradient(#0099ff, #0000ff);
 }
-.input {
-    margin: 5px;
+.task-2__block {
+    background: radial-gradient(at top, #0099ff, #0000ff);
 }
-.task-1__input_txt {
-    border-radius: 4px;
-    padding: 5px;
-    font-size: 16px;
+.task-3__block {
+    background: radial-gradient(circle, #0099ff, #0000ff);
+}
+.task-4__block {
+    background: radial-gradient(ellipse, #0099ff, #0000ff);
+}
+.task-5__block {
+    background: radial-gradient(circle closest-side, #0099ff, #0000ffb9);
+}
+.task-6__block {
+    background: radial-gradient(circle closest-corner at 30px 40px  , #0099ff, #0000ff);
+}
+.task-7__block {
+    background: radial-gradient(circle closest-side, #333333 10px, #ffffff 30px, #ffffff 40px, #008000 50px);
+}
+.task-8__block {
+    background: radial-gradient(circle closest-side, #008000 0px, #008000 30px, #ffffff 30px, #ffffff 50px, #008000 50px);
 }

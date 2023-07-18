@@ -1,0 +1,17 @@
+@import url("/dz/style.css");
+.block {
+    height: 200px;
+    width: 200px;
+}
+.task-1__block {
+    background: repeating-linear-gradient(to right, #ffffff 0px, #ffffff 10px, #000000 10px, #000000 20px);
+}
+.task-2__block {
+    background: repeating-linear-gradient(to top, #ffffff 0px, #ffffff 10px, #000000 10px, #000000 20px);
+}
+.task-3__block {
+    background: repeating-linear-gradient(to top, #ffffff 0px, #ffffff 4px, #000000 4px, #000000 5px);
+}
+.task-4__block {
+    background: repeating-linear-gradient(to bottom left, #ffffff 0px, #ffffff 8px, #ff0000 8px, #ff0000 12px);
+}

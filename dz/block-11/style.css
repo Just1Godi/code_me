@@ -1,0 +1,8 @@
+@import url("/dz/style.css");
+.block {
+    height: 400px;
+    width: 400px;
+}
+.task-1__block {
+    background: repeating-radial-gradient(circle at center, #000000 0px, #000000 4~px, #ffffff 4~px, #ffffff 8px);
+}
